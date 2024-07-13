@@ -1,5 +1,5 @@
 - name: Deploy Apache Webserver
-  hosts: localhost
+  hosts: all
   tasks:
    - name: Install apache2
      apt:
